@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root
+{
+   --cor-verde: #38AF90;
+   --cor-branca: #FFFFFF;
+   --cor-offwhite: #E5E5E5;
+   --cor-rosa: #DD7E92;
+   --cor-cinza-claro: #F0F0F0;
+   --cor-cinza-escuro: #797979;
+   --cor-preta: #383838;
+}
+
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+a, a:hover
+{
+   color: unset;
+   text-decoration: none;
+}
+
+#conteiner
+{
+   width: 100%;
+   max-width: 990px;
+   margin: 0 auto;
+}
+
+/*HEADER*/
+
+.cabecalho
+{
+   height: 90px;
+   background-color: var(--cor-verde);
+}
+
+.menu-conteiner
+{     
+   display: flex;
+   align-items: center;
+   padding: 14px 10px 14px 10px;
+   justify-content: space-between;
+}
+
+.menu-conteiner h1
+{
+   color: var(--cor-branca);
+   font-size: 18px;
+}
+
+.menu-itens
+{
+   display: none;
+}
+
+.menu-avatar
+{
+   height: 62px;
+   width: 62px;
+}
+
+/*MAIN*/
+
+
+
+/*FOOTER*/
+
+footer
+{
+   height: 302px;
+   background-color: var(--cor-preta);
+   color: var(--cor-branca);
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 37px;  
+}
+
+.redes-rodape
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.identidade-rodape
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.termos-rodape
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/*RESPONSIVIDADE*/
+
