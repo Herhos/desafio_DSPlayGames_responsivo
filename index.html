@@ -89,12 +89,49 @@
       </section>
 
       <section class="inscricao">
+         <h1 class="inscricao-titulo">Faça sua inscrição h1</h1>
+         
+         <form action="">
+            <input type="text" name="nome" id="controle-nome" placeholder="Nome completo">
+            <input type="text" name="email" id="controle-email" placeholder="E-mail">
+            
+            <div>
+               <label for="controle-opcoes">Qual a sua plataforma preferida?</label>
+               <div id="todas-opcoes">
+                  <input type="radio" name="opcoes" id="controle-opcao-1">
+                  <label for="controle-opcao-1">PC</label>
+                  <input type="radio" name="opcoes" id="controle-opcao-2">
+                  <label for="controle-opcao-2">Xbox</label>
+                  <input type="radio" name="opcoes" id="controle-opcao-3">
+                  <label for="controle-opcao-3">Playstation</label>
+               </div>
+            </div>
 
+            <div>
+               <input type="checkbox" name="novidades" id="controle-novidades">
+               <label for="controle-novidades">Desejo receber novidades.</label>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+         </form>
       </section>
    </main>
 
-   <footer>
+   <footer class="rodape-conteiner">
+      <div class="redes">
+         <a href="#">@dsplaygames</a>
+         <a href="#">/dsplaygames</a>
+      </div>
 
+      <div class="identidade">
+         <p>DS Play Games Ltda. Todos direitos reservados</p>         
+      </div>
+
+      <div class="termos">
+         <a href="#">Política de privacidade</a>
+         <a href="#">Termos de uso</a>
+      </div>
    </footer>
 </body>
 </html>
